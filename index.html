@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile GloryX</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="@GloryX">
+          <div class="nav">
+            <span title="Favorite">♥</span>
+    <span title="Pin">●</span>
+    <span title="Window">▣</span>
+    <span title="Back">◀</span>
+    <span title="Forward">▶</span>
+            <a href="html://GloryX Profile.com" target="_blank">html://GloryX Profile.com</a>
+            <span class="time">3:00 am</span>
+          </div>
+      </header>
+      <!-- Nội dung chính -->
+      <main class="main">
+        <!-- cột phải,ảnh và text-->
+         <div class="left">
+          <div class="loading">NOW LOADING...</div>
+          <div class="progress-bar">
+            <div class="progress"></div>
+         </div>
+<h1 class="title"> LIFE IS TERRIBLE</h1>
+<img src="ảnh và nhạc/e6ffaca2038d83d3da9c.jpg" alt="Avatar" class="main-img">
+         </div>
+         <!-- cột trái, icon mạng xã hội + ảnh nhỏ -->
+          <div class="right">
+           <h2 class="ERROR">ERROR</h2>
+           
+<a class="button"
+   href="https://www.facebook.com/share/1Eu8G5X7K5/"
+   target="_blank"
+   rel="noopener noreferrer">
+    FACEBOOK ACCOUNT LINK
+</a>
+
+
+           <div class="bio">
+             Status: Alive<br>
+             Location: Unknown!!<br>
+             Condition: Mentally unstable| WARRNING<br>
+             Isolated: Yes<br>
+             Age: 17<br>
+             Gender:boy,....
+            </div>
+            <div class="box likes">
+              <strong>Likes...</strong><br>
+              I like music, furry, coding,<br>
+              drawing, and traveling :>
+            </div>
+            <div class="box dislikes">
+              <strong>Dislikes...</strong><br>
+              I hate my life<br>
+              I hate how badly everyone around me treats me<br>
+              I always feel lonely<br>
+              I'm always struggling with my own emotions<br>
+              and this is so, so bad.<br>
+              DANM IT 
+            </div>
+          </div>
+        </main>
+        <!-- Footer: icon mạng xã hội + ảnh nhỏ -->
+<footer class="footer">
+  <div class="social-links">
+    <a href="https://www.tiktok.com/@gloryx_1" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+      <img src="https://cdn.simpleicons.org/tiktok/ffffff" alt="TikTok">
+    </a>
+
+    <a href="https://x.com/Fox_gloryX" target="_blank" rel="noopener noreferrer" aria-label="X">
+      <img src="https://cdn.simpleicons.org/x/ffffff" alt="X">
+    </a>
+
+    <a href="https://www.instagram.com/gloryxfurry/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <img src="https://cdn.simpleicons.org/instagram/ffffff" alt="Instagram">
+    </a>
+
+    <a href="https://open.spotify.com/user/313wusawepudkus436ix2dbz5hpm?si=2f16500f66c443f0" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
+      <img src="https://cdn.simpleicons.org/spotify/ffffff" alt="Spotify">
+    </a>
+  </div>
+
+  <div class="small-imgs">
+    <img src="ảnh và nhạc/download (1).jpe" alt="ảnh nhỏ 1">
+    <img src="ảnh và nhạc/download (2).jpe" alt="ảnh nhỏ 2">
+    <img src="ảnh và nhạc/I was falling….jpe" alt="ảnh nhỏ 3">
+  </div>
+</footer>
+
+<!-- Music Player (nằm ngoài footer nhưng vẫn trong .container) -->
+<div class="music-player">
+  <div class="song-info">
+    <span class="song-name">Dark City</span>
+  </div>
+  <button class="play-btn" id="playBtn">▶</button>
+  <audio id="audio" src="ảnh và nhạc/cry of fear OST - dark city.mp3" loop></audio>
+</div>
+
+<div class="footer-text">
+  <p>© 2026 GloryX</p>
+</div>
+
+<script>
+  const audio = document.getElementById('audio');
+  const playBtn = document.getElementById('playBtn');
+
+  playBtn.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = '❚❚';
+    } else {
+      audio.pause();
+      playBtn.textContent = '▶';
+    }
+  });
+</script>
+        </body>
+</html>
